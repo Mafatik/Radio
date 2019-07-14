@@ -1,0 +1,10 @@
+body {
+    background-image: url("../images/background.png");
+    background-color: #fdd467;
+    background-size: cover;
+    background-position: 0% 18%;
+}
+
+h1 {
+    color: #fdd467
+}
