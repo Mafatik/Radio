@@ -1,7 +1,14 @@
-body {
-    background-image: url("../images/background.png");
-    background-color: #fdd467;
+html {
+    height: 100%;
     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(235, 68, 165, 0.685)), url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fdd467;
     background-position: 0% 18%;
 }
 

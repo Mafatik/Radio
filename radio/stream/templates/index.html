@@ -4,48 +4,55 @@
     {% load static%}
     <link rel="stylesheet" type="text/css" href="{% static "stream/css/index_style.css" %}" />
 
-    <h1>Stream</h1>
-    <div class="sign">
-        <div class="artist">Chicago<div>
-        <div class="track">Hard habit to break<div>
+    <div id="sign">
+        <div id="artist">Какой-то хрен</div>
+        <div id="track">Сраная музыка какого-то хрена</div>
     </div>
 
-    <button id="play" type="button" onclick="play_pause()">play</button>
-    <script>
-        paused = true;
-        var aud = document.getElementsByTagName('audio');
-        var play_btn = document.getElementById('play');
+    <div id="player_controls">
 
-        function play_pause(){
-            if (paused) {
-                aud[0].play();
-                play_btn.textContent = "pause";
-            } else {
-                aud[0].pause();
-                play_btn.textContent = "play";
-            }
-            paused = !paused;
-        }
-    </script>
+        <div id="play_button">
+            <button id="play" type="button" onclick="play_pause()">play</button>
+            <script>
+                paused = true;
+                var aud = document.getElementsByTagName('audio');
+                var play_btn = document.getElementById('play');
 
+                function play_pause(){
+                    if (paused) {
+                        aud[0].play();
+                        play_btn.textContent = "pause";
+                    } else {
+                        aud[0].pause();
+                        play_btn.textContent = "play";
+                    }
+                    paused = !paused;
+                }
+            </script>
+        </div>
 
-    <input id= "volume" type="range" min="1" max="100" step="1" value="100" oninput="volume()"> 
-    <script>
-        var aud = document.getElementsByTagName('audio');
-        var vol = document.getElementById('volume');
-        
-        function volume(){
-            aud[0].volume = vol.value/100;
-            if (vol.value == 1){
-                aud[0].muted = true;
-            } else {
-                aud[0].muted = false;
-            }
-        }
-    </script>
+        <div id="volume">
+            <input id= "volume" type="range" min="1" max="100" step="1" value="100" oninput="volume()"> 
+            <script>
+                var aud = document.getElementsByTagName('audio');
+                var vol = document.getElementById('volume');
+                
+                function volume(){
+                    aud[0].volume = vol.value/100;
+                    if (vol.value == 1){
+                        aud[0].muted = true;
+                    } else {
+                        aud[0].muted = false;
+                    }
+                }
+            </script>
+        </div>
+    </div>
 
 
     {% load static %}
-    <audio src="{% static "stream/audio/test2.mp3" %}" type="audio/mpeg">
+    <audio autoplay>
+        <source src="https://station.waveradio.org/soviet?lxersuoaqudutwqxzzpw" type="audio/mpeg">
+    </audio>
 
 {% endblock %}
