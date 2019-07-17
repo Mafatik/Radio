@@ -5,8 +5,8 @@
     <link rel="stylesheet" type="text/css" href="{% static "stream/css/index_style.css" %}" />
 
     <div id="sign">
-        <div id="artist">Какой-то хрен</div>
-        <div id="track">Сраная музыка какого-то хрена</div>
+        <div id="artist">HOME</div>
+        <div id="track">RESONANCE</div>
     </div>
 
     <div id="player_controls">
@@ -31,7 +31,7 @@
             </script>
         </div>
 
-        <div id="volume">
+        <div id="volume_container">
             <input id= "volume" type="range" min="1" max="100" step="1" value="100" oninput="volume()"> 
             <script>
                 var aud = document.getElementsByTagName('audio');
@@ -48,6 +48,8 @@
             </script>
         </div>
     </div>
+
+    <div id="broadcast_mode">MORNING BROADCAST</div>
 
 
     {% load static %}
