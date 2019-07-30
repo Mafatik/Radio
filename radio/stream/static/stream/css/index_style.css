@@ -1,69 +1,47 @@
 #sign {
-    padding: 5%;
-    font-size: 300%;
-    color: #0ab16b;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
     text-align: center;
+    font-size: 300%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
 }
 
 #player_controls {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 
 #play_button {
-    margin: 0;
-    position: absolute;
-    top: -150%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 
 #play {
-    text-decoration: none;
-    outline: none;
-    display: inline-block;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
     margin: 10px 20px;
     padding: 15px 30px;
-    overflow: hidden;
-    border: 2px solid;
-    border-bottom-width: 4px;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 2px;
-    color: rgb(0, 179, 125);
-    background: rgb(255, 129, 236);
-    transition: color .3s;
-}
-
-#play:hover {
-    animation: stripes .75s infinite linear;
-    background: linear-gradient(45deg, rgba(0, 179, 125, 1) 25%, rgb(255, 129, 236) 25%, rgb(255, 129, 236) 50%, rgba(0, 179, 125, 1) 50%, rgba(0, 179, 125, 1) 75%, rgb(255, 129, 236) 75%, rgb(255, 129, 236));
-    background-size: 10px 10px;
-    color: rgb(255, 129, 236);
-    ;
-}
-
-@keyframes stripes {
-    0% {
-        background-position: 0 0;
-    }
-    100% {
-        background-position: 10px 0;
-    }
+    color: rgb(255, 255, 255);
+    background: rgb(243, 227, 79);
 }
 
 input[type=range] {
     -webkit-appearance: none;
     appearance: none;
-    width: 100%;
+    width: 21%;
     height: 25px;
-    background: rgb(255, 129, 236);
+    background: rgb(243, 227, 79);
     outline: none;
 }
 
@@ -72,18 +50,18 @@ input[type=range]::-webkit-slider-thumb {
     appearance: none;
     width: 25px;
     height: 25px;
-    background: rgb(0, 179, 125);
+    background: rgb(255, 255, 255);
 }
 
 input[type=range]::-moz-range-thumb {
     width: 25px;
     height: 25px;
-    background: rgb(0, 179, 125);
+    background: rgb(255, 255, 255);
 }
 
 #broadcast_mode {
     padding: 5%;
     font-size: 200%;
-    color: #0ab16b;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
