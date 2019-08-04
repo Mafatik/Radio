@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Playlist</title>
+	<trackList>
+		<track>
+			<location>file:///media/pavel/Files/Music/Synthwave/Andromeda%20Dreams%20-%20Space%20Highway.mp3</location>
+			<title>Space Highway</title>
+			<creator>Andromeda Dreams</creator>
+			<album>Stardust</album>
+			<trackNum>2</trackNum>
+			<image>file:///home/pavel/.cache/vlc/art/artistalbum/Andromeda%20Dreams/Stardust/art</image>
+			<duration>215066</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/pavel/Files/Music/Synthwave/Arizona%20-%20Oceans%20Away%20(The%20Midnight%20Remix).mp3</location>
+			<title>Oceans Away (The Midnight Remix)</title>
+			<creator>A R I Z O N A</creator>
+			<album>Oceans Away (The Remixes)</album>
+			<trackNum>5</trackNum>
+			<annotation>https://vk.com/weneedmusic</annotation>
+			<image>file:///home/pavel/.cache/vlc/art/artistalbum/A%20R%20I%20Z%20O%20N%20A/Oceans%20Away%20%28The%20Remixes%29/art.jpg</image>
+			<duration>306759</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/pavel/Files/Music/Synthwave/Bear&#39;s%20Den%20-%20Gabriel.mp3</location>
+			<title>Gabriel</title>
+			<creator>Bear&#39;s Den</creator>
+			<album>Red Earth &amp; Pouring Rain</album>
+			<trackNum>11</trackNum>
+			<image>file:///home/pavel/.cache/vlc/art/artistalbum/Bear%27s%20Den/Red%20Earth%20%26%20Pouring%20Rain/art.jpg</image>
+			<duration>244635</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/pavel/Files/Music/Synthwave/Bear&#39;s%20Den%20-%20Red%20Earth%20%20Pouring%20Rain.mp3</location>
+			<title>Red Earth &amp; Pouring Rain</title>
+			<creator>Bear&#39;s Den</creator>
+			<album>Red Earth &amp; Pouring Rain</album>
+			<trackNum>1</trackNum>
+			<image>file:///home/pavel/.cache/vlc/art/artistalbum/Bear%27s%20Den/Red%20Earth%20%26%20Pouring%20Rain/art.jpg</image>
+			<duration>292107</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/pavel/Files/Music/Synthwave/Benny%20Smiles%20-%20Hotline%20Theme.mp3</location>
+			<title>Hotline Miami 2: Wrong Number Soundtrack - Hotline Miami Theme</title>
+			<trackNum>1</trackNum>
+			<annotation>www.dvdvideosoft.com</annotation>
+			<image>file:///home/pavel/.cache/vlc/art/arturl/09474de0b00b4c22a56ec1b6c6b7f4e0/art.jpg</image>
+			<duration>220011</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/pavel/Files/Music/Synthwave/Birdy%20Nam%20Nam%20-%20The%20Parachute%20Ending.mp3</location>
+			<duration>199272</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/pavel/Files/Music/Synthwave/Carpenter%20Brut%20-%20Maniac%20(Cover).mp3</location>
+			<creator>Carpenter Brut</creator>
+			<duration>293436</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/pavel/Files/Music/Synthwave/Carpenter%20Brut%20-%20Turbo%20Killer.mp3</location>
+			<title>Turbo Killer</title>
+			<creator>Carpenter Brut</creator>
+			<album>Trilogy</album>
+			<trackNum>16</trackNum>
+			<annotation>http://superbomb.ru - Электронная Музыка</annotation>
+			<image>file:///home/pavel/.cache/vlc/art/artistalbum/Carpenter%20Brut/Trilogy/art.jpg</image>
+			<duration>221251</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/pavel/Files/Music/Synthwave/Everlasting%20Summer%20-%20Lets%20be%20friends%20(Retrowave%20Cover%20by%20The%20Motion).mp3</location>
+			<duration>111994</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/pavel/Files/Music/Synthwave/FM-84%20-%20Running%20In%20The%20Night%20(feat.%20Ollie%20Wride).mp3</location>
+			<title>Running In The Night (feat. Ollie Wride)</title>
+			<creator>FM-84</creator>
+			<album>Atlas</album>
+			<trackNum>2</trackNum>
+			<annotation>Visit http://fm84.bandcamp.com</annotation>
+			<image>file:///home/pavel/.cache/vlc/art/artistalbum/FM-84/Atlas/art</image>
+			<duration>270053</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:item tid="0"/>
+		<vlc:item tid="1"/>
+		<vlc:item tid="2"/>
+		<vlc:item tid="3"/>
+		<vlc:item tid="4"/>
+		<vlc:item tid="5"/>
+		<vlc:item tid="6"/>
+		<vlc:item tid="7"/>
+		<vlc:item tid="8"/>
+		<vlc:item tid="9"/>
+	</extension>
+</playlist>

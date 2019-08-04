@@ -1,60 +1,37 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
-    {% load static%}
+    {% load staticfiles%}
     <link rel="stylesheet" type="text/css" href="{% static "stream/css/index_style.css" %}" />
+    <link rel="stylesheet" type="text/css" href="{% static "stream/css/controls_style.css" %}" />
+    <audio id="audio" 
+        preload 
+        onloadstart="buffering()"
+        oncanplay="canPlay()">
+        <source src="http://localhost:8040" type="audio/mpeg">
+    </audio>
+    <script type="text/javascript" src="{% static "stream/scripts/controls.js" %}"></script>
 
+    <script>
+        
+    </script>
     <div id="sign">
-        <div id="artist">HOME</div>
-        <div id="track">RESONANCE</div>
+        <div id="artist">Artist</div>
+        <div id="track">Track</div>
     </div>
 
     <div id="player_controls">
-
-        <div id="play_button">
-            <button id="play" type="button" onclick="play_pause()">play</button>
-            <script>
-                paused = true;
-                var aud = document.getElementsByTagName('audio');
-                var play_btn = document.getElementById('play');
-
-                function play_pause(){
-                    if (paused) {
-                        aud[0].play();
-                        play_btn.textContent = "pause";
-                    } else {
-                        aud[0].pause();
-                        play_btn.textContent = "play";
-                    }
-                    paused = !paused;
-                }
-            </script>
+        <div id="play_container">
+            <button id="play" type="button">play</button>
         </div>
-
         <div id="volume_container">
-            <input id= "volume" type="range" min="1" max="100" step="1" value="100" oninput="volume()"> 
-            <script>
-                var aud = document.getElementsByTagName('audio');
-                var vol = document.getElementById('volume');
-                
-                function volume(){
-                    aud[0].volume = vol.value/100;
-                    if (vol.value == 1){
-                        aud[0].muted = true;
-                    } else {
-                        aud[0].muted = false;
-                    }
-                }
-            </script>
+            <input id= "volume" type="range" min="1" max="100" step="1" value="100"> 
         </div>
+        <label class="switch">
+            <input id="sync_check" type="checkbox">
+            <span id="sync" class="slider"></span>
+        </label>
     </div>
 
     <div id="broadcast_mode">MORNING BROADCAST</div>
-
-
-    {% load static %}
-    <audio autoplay>
-        <source src="http://localhost:8040" type="audio/mpeg">
-    </audio>
-
 {% endblock %} 
