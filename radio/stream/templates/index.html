@@ -11,14 +11,9 @@
         <source src="http://localhost:8040" type="audio/mpeg">
     </audio>
     <script type="text/javascript" src="{% static "stream/scripts/controls.js" %}"></script>
+    <script type="text/javascript" src="{% static "stream/scripts/sign_update.js" %}"></script>
 
-    <script>
-        
-    </script>
-    <div id="sign">
-        <div id="artist">Artist</div>
-        <div id="track">Track</div>
-    </div>
+    {% include "sign.html" %}
 
     <div id="player_controls">
         <div id="play_container">
