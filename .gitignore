@@ -1,3 +1,8 @@
+### MEDIA ###
+*.mp3
+*.ogg
+*.xspf
+
 ### PYTHON ###
 
 # Byte-compiled / optimized / DLL files
