@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% load staticfiles%}
+<link rel="stylesheet" type="text/css" href="{% static "player/css/base_style.css" %}" />
+<script type="text/javascript" src="{% static "player/scripts/js/jquery-3.4.1.min.js" %}"></script>
+
+<html lang="en">
+    <head>
+        <title>Lo-Fi Radio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta name="description" content="Nothing but relax music">
+        <meta name="keywords" content="lofi, lo-fi, radio, relax, stream, music">
+    </head>
+
+    <body>
+        {% block content %}<!-- default content text (typically empty) -->{% endblock %}
+    </body>
+</html>

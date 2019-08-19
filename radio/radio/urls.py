@@ -20,6 +20,6 @@ from django.conf.urls import include, url
 urlpatterns = [
     path('admin/', admin.site.urls),
 
-    #/stream/
-    url(r'', include('stream.urls')),
+    #/player/
+    url(r'', include('player.urls')),
 ]
